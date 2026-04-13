@@ -12,6 +12,8 @@
 
 .sidebar-header {
     margin-bottom: 40px;
+    border-bottom: 2px solid var(--border-dark);
+    width: 100%;
 }
 
 .logo {
@@ -19,8 +21,6 @@
     font-weight: bold;
     color: var(--accent-dark);
     letter-spacing: 1px;
-    border-bottom: 1px solid var(--border-dark);
-    width: 100%;
 }
 .nav-links {
     list-style: none;
