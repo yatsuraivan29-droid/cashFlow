@@ -54,14 +54,6 @@
 }
 @media (max-width: 768px){
     .sidebar {
-        width: 120px;
-    }
-    .nav-links a{
-        color: var(--bg-card-dark);
-    }
-    .nav-links li.active a,
-    .nav-links a:hover {
-     background-color: var(--bg-dark);
-     color: var(--bg-dark);
+        width: 140px;
     }
 }
