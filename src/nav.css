@@ -2,7 +2,6 @@
     left: 0;
     top: 0;
     width: 260px;
-    height: 100vh;
     background-color: var(--bg-card-dark);
     border-right: 1px solid var(--border-dark);
     display: flex;
@@ -52,4 +51,17 @@
 .icon {
     margin-right: 15px;
     font-style: normal;
+}
+@media (max-width: 768px){
+    .sidebar {
+        width: 120px;
+    }
+    .nav-links a{
+        color: var(--bg-card-dark);
+    }
+    .nav-links li.active a,
+    .nav-links a:hover {
+     background-color: var(--bg-dark);
+     color: var(--bg-dark);
+    }
 }

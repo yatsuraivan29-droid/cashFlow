@@ -11,3 +11,7 @@
 .muted-text {
     color: var(--text-muted-dark);
   }
+.wraper{
+    height: 100vh;
+    display: flex;
+}
