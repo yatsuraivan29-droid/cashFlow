@@ -5,3 +5,10 @@
     display: flex;
     padding: 10px;
 }
+
+.btn_plus{
+    margin: 10px;
+    min-width: 100px;
+    background-color: var(--text-muted-dark);
+    border-radius: 10px;
+}
